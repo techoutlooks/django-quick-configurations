@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: quick-configs
+Version: 0.1.0
+Summary: Quick object-based settings for Django based on django-configurations.
+Home-page: https://github.com/techoutlooks/django-quick-configurations
+Author: Edouard Carvalho
+Author-email: ceduth@techoutlooks.com
+License: UNKNOWN
+Description: # Quick Django Settings
+        
+        [Home page](https://github.com/techoutlooks/django-quick-configurations)
+        
+Platform: UNKNOWN
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown

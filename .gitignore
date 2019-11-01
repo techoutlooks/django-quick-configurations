@@ -1,0 +1,4 @@
+smart_models.egg-info/
+dist/
+*.pyc
+*~
