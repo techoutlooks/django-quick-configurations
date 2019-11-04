@@ -9,7 +9,7 @@ Depends on [django-configurations](https://github.com/jazzband/django-configurat
 ### Install
 
 ```bash
-pip install -e git+https://github.com/techoutlooks/django-quick-configurations#egg=quick_configs
+pip install -e git+https://github.com/techoutlooks/django-quick-configurations.git#egg=quick_configs
 ```
 ### Usage
 

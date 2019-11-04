@@ -101,13 +101,13 @@ class CommonConfig(
 
     # look for `env/.env` of main Django app for common settings to load,
     # then attempt to load host-specific settings from env file named after the host
-    load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'))
+    load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'), override=True)
     _dotenv = join(str(SETTINGS_ROOT), 'env/%s.env' % socket.gethostname().split('.', 1)[0])
     if exists(_dotenv):
         # avoiding `DOTENV = _dotenv`, which is lazy;
         # instead, using python-dotenv really sets up the env NOW
         # TODO: licensing server: https://github.com/theskumar/python-dotenv#setting-config-on-remote-servers
-        load_dotenv(_dotenv)
+        load_dotenv(dotenv_path=_dotenv, override=True)
 
     # Project definition
     CODENAME = values.Value(DEFAULT_CODENAME, environ_required=True, environ_prefix=None)
