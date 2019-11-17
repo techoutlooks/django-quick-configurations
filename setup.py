@@ -11,7 +11,7 @@ setuptools.setup(
     description="Quick OOP-based settings as plugins, based on Jezdez's django-configurations plus some goodies.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/techoutlooks/django-quick-configurations",
+    url="https://github.com/techoutlooks/django-quickconfigs",
     packages=setuptools.find_packages(),
     python_requires='>=2.7',
     install_requires=[
