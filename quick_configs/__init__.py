@@ -4,7 +4,13 @@ from __future__ import unicode_literals
 import os
 import sys
 import socket
-from itertools import ifilter
+
+try:
+    # Python 2
+    from future_builtins import filter
+except ImportError:
+    # Python 3
+    pass
 
 from os.path import join, realpath, exists, isfile
 from django.utils.translation import ugettext_lazy as _
@@ -18,9 +24,10 @@ from .config.email import SendMailSettings
 from .config.secure import SecureSettings
 from .config.sentry import SentrySettings
 from .config.redis import RedisSettings, RedisCacheSettings, RedisBrokerSettings
+from .config.drf import DjangorestframeworkSettings
 
 
-get_app_path = lambda name: next(ifilter(lambda p: isfile(join(p, name)), sys.path), None)
+get_app_path = lambda name: next(filter(lambda p: isfile(join(p, name)), sys.path), None)
 
 
 class DevConfigMixin(object):
@@ -29,6 +36,7 @@ class DevConfigMixin(object):
     See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
     """
 
+    # Turn all debug flags on
     DEV = True
     PROD = STAGING = not DEV
     HTTPS_ONLY = False
@@ -40,11 +48,17 @@ class DevConfigMixin(object):
 
     # SendMailSettings override
     DJANGO_EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+    EMAIL_HOST = EMAIL_HOST_USER = EMAIL_HOST_PASSWORD = None
 
 
 class StagingConfigMixin(object):
     """
     Testing before going production
+    eg.
+
+    class MyDjangoSettings(StagingConfigMixin, CommonConfig):
+        pass
+
     """
 
     # env reset
@@ -67,7 +81,8 @@ class ProdConfigMixin(StagingConfigMixin):
 
 
 class CommonConfig(
-    SentrySettings, SecureSettings,
+    # SentrySettings,
+    SecureSettings, DjangorestframeworkSettings,
     SendMailSettings, RedisCacheSettings, LoggingSettings,
     TemplatesSettings, MiddlewareSettings, DatabasesAppsSettings, Configuration
 ):
@@ -81,6 +96,7 @@ class CommonConfig(
         HOSTNAME = 'localhost'
         ROOT_URLCONF = 'my.urls'
         WSGI_APPLICATION = 'my.wsgi'
+        ...
     """
 
     # -----------------------------------------------------------------------------------
@@ -130,7 +146,7 @@ class CommonConfig(
     FIXTURE_DIRS = (join(str(PROJECT_ROOT), 'fixtures'),)
     MEDIA_ROOT = join(str(PROJECT_ROOT), 'media')
     STATIC_ROOT = values.Value(join(realpath(str(PROJECT_ROOT)), 'sitestatic'))
-    STATICFILES_DIRS = values.ListValue([join(str(PROJECT_ROOT), 'static')])
+    # STATICFILES_DIRS = values.ListValue([join(str(PROJECT_ROOT), 'static')])
     TEMPLATE_DIRS = values.ListValue([join(str(PROJECT_ROOT), 'templates')])
 
     # -----------------------------------------------------------------------------------
@@ -145,7 +161,7 @@ class CommonConfig(
     INTERNAL_IPS = values.ListValue(['127.0.0.1'] + socket.gethostbyname_ex(socket.gethostname())[-1])
     ADMINS = values.SingleNestedTupleValue(('Support Group @TechOutlooks', 'support@techoutlooks.com'),)
     MANAGERS = ADMINS
-    ALLOWED_HOSTS = values.ListValue([h for h in [HOSTNAME, 'localhost', '127.0.0.1'] if h])
+    ALLOWED_HOSTS = values.ListValue([h for h in [HOSTNAME.value, 'localhost', '127.0.0.1'] if h])
     # @property
     # def ALLOWED_HOSTS(self):
     #     return [h for h in [self.HOSTNAME, 'localhost', '127.0.0.1'] if h]
@@ -179,8 +195,8 @@ class CommonConfig(
     STATICFILES_FINDERS = (
         'django.contrib.staticfiles.finders.FileSystemFinder',
         'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-        'compressor.finders.CompressorFinder',
+        # 'compressor.finders.CompressorFinder',
     )
 
 
-default_app_config = 'quick_configs.app.SmartSettingsAppConfig'
+default_app_config = 'quick_configs.apps.SmartSettingsAppConfig'

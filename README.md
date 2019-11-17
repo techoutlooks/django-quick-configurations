@@ -9,7 +9,8 @@ Depends on [django-configurations](https://github.com/jazzband/django-configurat
 ### Install
 
 ```bash
-pip install -e git+https://github.com/techoutlooks/django-quick-configurations.git#egg=quick_configs
+pip install -e git+https://github.com/techoutlooks/django-quick-configs.git#egg=quick_configs
+python manage.py --configurations Dev
 ```
 ### Usage
 
@@ -23,8 +24,7 @@ class MyDjangoSettings(CommonConfig):
     ROOT_URLCONF = 'my.urls'
     WSGI_APPLICATION = 'my.wsgi'
 
-DJANGO_CONFIGURATION=MyDjangoSettings
-python manage.py runserver
+DJANGO_CONFIGURATION=MyDjangoSettings python manage.py runserver
 ```
 
 slightly more complex usage leveraging the common mixins. The base `CommonConfig` class inherits the following mixins : 
@@ -51,6 +51,15 @@ class Dev(CommonConfig):
     # SendMailSettings mixin override
     DJANGO_EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-DJANGO_CONFIGURATION=Dev
-python manage.py runserver
+
 ```
+
+Create default logs dir,
+or set `LOGS_ROOT=${PROJECT_ROOT}/logs` in settings.py.
+
+    mkdir -p ${PROJECT_ROOT}/logs
+
+Run the app (alternative ways):
+    
+    DJANGO_CONFIGURATION=Dev python manage.py runserver
+    python manage.py runserver --settings core.settings --configuration Dev

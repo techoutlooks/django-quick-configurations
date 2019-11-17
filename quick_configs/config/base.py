@@ -25,7 +25,7 @@ class DatabasesAppsSettings(object):
         'django.contrib.sites',
         'django.contrib.sitemaps',
         'django.contrib.staticfiles',
-        # 'django.contrib.messages',
+        'django.contrib.messages',
         # 'django.contrib.markup',
         'django.contrib.humanize',
         'django.contrib.admin',
@@ -36,7 +36,6 @@ class DatabasesAppsSettings(object):
     # ie., no matter whether Dev, Staging or Prod mode is active.
     DEBUG_APPS = (
         'django_extensions',
-        'debug_toolbar',
     )
 
     # ----------------------------------------------------------------------------------
@@ -83,20 +82,16 @@ class MiddlewareSettings(object):
         # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
     )
 
-    DEBUG_MIDDLEWARE = ('debug_toolbar.middleware.DebugToolbarMiddleware',)
+    DEBUG_MIDDLEWARE = ()
     DEFAULT_MIDDLEWARE = ()
     PROJECT_MIDDLEWARE = ()
 
     @property
-    def MIDDLEWARE_CLASSES(self):
+    def MIDDLEWARE(self):
         out_classes = self.DEFAULT_MIDDLEWARE + self.DJANGO_MIDDLEWARE + self.PROJECT_MIDDLEWARE
         if self.DEBUG:
             out_classes += self.DEBUG_MIDDLEWARE
         return list(out_classes)
-
-    @property
-    def MIDDLEWARE(self):
-        return self.MIDDLEWARE_CLASSES
 
 
 class TemplatesSettings(object):

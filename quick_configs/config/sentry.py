@@ -1,8 +1,5 @@
 from configurations import values
-import sentry_sdk
-from sentry_sdk.integrations.django import DjangoIntegration
-from sentry_sdk.integrations.celery import CeleryIntegration
-from sentry_sdk.integrations.redis import RedisIntegration
+from django.core.exceptions import ImproperlyConfigured
 
 
 class SentrySettings(object):
@@ -17,6 +14,18 @@ class SentrySettings(object):
 
     @classmethod
     def post_setup(cls):
+        try:
+            import sentry_sdk
+            from sentry_sdk.integrations.django import DjangoIntegration
+            from sentry_sdk.integrations.celery import CeleryIntegration
+            from sentry_sdk.integrations.redis import RedisIntegration
+        except ImportError:
+            raise ImproperlyConfigured(
+                "`django-quick-configs: SentrySettings` "
+                "sentry_sdk not installed. "
+                "try `pip install -e git+https://github.com/getsentry/sentry-python.git#egg=sentry_sdk.`"
+            )
+
         super(SentrySettings, cls).post_setup()
         if cls.SENTRY_DSN:
             sentry_sdk.init(

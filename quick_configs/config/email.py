@@ -13,7 +13,7 @@ class SendMailSettings(object):
         DEFAULT_FROM_EMAIL = EMAIL_HOST_USER    # ends regular emails thru send_mail()
         EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-    Following have no defaults and will be required from the env
+    Following have no defaults and will be required from the env:
         EMAIL_HOST,
         EMAIL_HOST_USER,
         EMAIL_HOST_PASSWORD

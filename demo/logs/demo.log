@@ -1,0 +1,300 @@
+[17/Nov/2019 08:46:35] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 08:47:57] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 08:48:24] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 08:50:43] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 08:54:04] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 08:56:13] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 08:57:05] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:10:52] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:12:32] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:12:57] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:13:39] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:18:25] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:18:35] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/manage.py changed, reloading.
+[17/Nov/2019 09:18:35] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:19:09] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:21:48] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:22:32] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:43:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:43:26] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/__init__.py changed, reloading.
+[17/Nov/2019 09:43:27] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:44:08] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/__init__.py changed, reloading.
+[17/Nov/2019 09:44:09] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:44:32] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:44:32] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:44:43] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:44:43] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:44:48] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:44:49] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:44:58] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:44:58] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:45:11] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:45:11] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:47:03] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:47:51] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:47:51] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:48:45] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:48:45] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:49:31] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:49:44] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:49:44] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:50:36] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 09:50:36] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:50:39] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 09:50:39] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:50:42] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 09:50:42] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:51:17] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:51:17] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:54:09] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:54:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:54:14] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:54:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 09:54:49] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 09:55:02] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:05:56] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:06:35] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:06:38] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /admin
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 189, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/middleware/locale.py", line 21, in process_request
+    language = translation.get_language_from_request(request, check_path=i18n_patterns_used)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/translation/__init__.py", line 236, in get_language_from_request
+    return _trans.get_language_from_request(request, check_path)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/translation/trans_real.py", line 463, in get_language_from_request
+    lang_code = request.session.get(LANGUAGE_SESSION_KEY)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 65, in get
+    return self._session.get(key, default)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 194, in _get_session
+    self._session_cache = self.load()
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py", line 43, in load
+    s = self._get_session_from_db()
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    expire_date__gt=timezone.now()
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/models/query.py", line 402, in get
+    num = len(clone)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/models/query.py", line 256, in __len__
+    self._fetch_all()
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/models/query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/models/query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: django_session
+[17/Nov/2019 17:06:38] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin HTTP/1.1" 500 171726
+[17/Nov/2019 17:07:42] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:07:45] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /admin
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/middleware/common.py", line 47, in process_request
+    host = request.get_host()
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/http/request.py", line 103, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/http/request.py", line 603, in validate_host
+    return any(pattern == '*' or is_same_domain(host, pattern) for pattern in allowed_hosts)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/http/request.py", line 603, in <genexpr>
+    return any(pattern == '*' or is_same_domain(host, pattern) for pattern in allowed_hosts)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/http.py", line 288, in is_same_domain
+    pattern = pattern.lower()
+AttributeError: 'Value' object has no attribute 'lower'
+[17/Nov/2019 17:07:45] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin HTTP/1.1" 500 85363
+[17/Nov/2019 17:08:59] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 17:08:59] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:09:00] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /admin
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/middleware/common.py", line 47, in process_request
+    host = request.get_host()
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/http/request.py", line 103, in get_host
+    if domain and validate_host(domain, allowed_hosts):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/http/request.py", line 603, in validate_host
+    return any(pattern == '*' or is_same_domain(host, pattern) for pattern in allowed_hosts)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/http/request.py", line 603, in <genexpr>
+    return any(pattern == '*' or is_same_domain(host, pattern) for pattern in allowed_hosts)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/http.py", line 288, in is_same_domain
+    pattern = pattern.lower()
+AttributeError: 'Value' object has no attribute 'lower'
+[17/Nov/2019 17:09:00] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin HTTP/1.1" 500 85136
+[17/Nov/2019 17:09:05] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
+[17/Nov/2019 17:09:05] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:11:56] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/__init__.py changed, reloading.
+[17/Nov/2019 17:11:57] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:12:02] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin HTTP/1.1" 301 0
+[17/Nov/2019 17:12:02] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2019 17:12:02] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/middleware.py", line 92, in __call__
+    panel.generate_stats(request, response)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/panels/staticfiles.py", line 128, in generate_stats
+    "staticfiles_finders": self.get_staticfiles_finders(),
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/panels/staticfiles.py", line 140, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py", line 131, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/contrib/staticfiles/utils.py", line 23, in get_files
+    directories, files = storage.listdir(location)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/files/storage.py", line 315, in listdir
+    for entry in os.scandir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/static'
+[17/Nov/2019 17:12:02] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 500 99223
+[17/Nov/2019 17:15:45] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/__init__.py changed, reloading.
+[17/Nov/2019 17:15:46] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:15:48] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/urls/base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/middleware.py", line 99, in __call__
+    bits[-2] += toolbar.render_toolbar()
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/toolbar.py", line 69, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+[17/Nov/2019 17:15:48] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 500 144799
+[17/Nov/2019 17:21:45] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 17:21:45] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:22:07] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/middleware.py", line 99, in __call__
+    bits[-2] += toolbar.render_toolbar()
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/toolbar.py", line 69, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: debug_toolbar/base.html
+[17/Nov/2019 17:22:07] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 500 93067
+[17/Nov/2019 17:22:07] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/middleware.py", line 99, in __call__
+    bits[-2] += toolbar.render_toolbar()
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/toolbar.py", line 69, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: debug_toolbar/base.html
+[17/Nov/2019 17:22:07] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /favicon.ico HTTP/1.1" 500 91319
+[17/Nov/2019 17:22:40] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/middleware.py", line 99, in __call__
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/toolbar.py", line 69, in render_toolbar
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: debug_toolbar/base.html
+[17/Nov/2019 17:22:40] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 500 88214
+[17/Nov/2019 17:22:41] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/middleware.py", line 99, in __call__
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/debug_toolbar/toolbar.py", line 69, in render_toolbar
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: debug_toolbar/base.html
+[17/Nov/2019 17:22:41] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 500 88214
+[17/Nov/2019 17:23:11] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 17:23:11] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1828
+[17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/css/responsive.css HTTP/1.1" 200 17944
+[17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/css/login.css HTTP/1.1" 200 1233
+[17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/css/base.css HTTP/1.1" 200 16378
+[17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[17/Nov/2019 17:23:25] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 17:23:26] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:24:12] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 17:24:13] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
+[17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/ HTTP/1.1" 200 3711
+[17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/css/responsive.css HTTP/1.1" 200 17944
+[17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/css/dashboard.css HTTP/1.1" 200 412
+[17/Nov/2019 17:25:10] WARNING [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /favicon.ico HTTP/1.1" 404 1970
+[17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
