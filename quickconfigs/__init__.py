@@ -199,4 +199,4 @@ class CommonConfig(
     )
 
 
-default_app_config = 'quick_configs.apps.SmartSettingsAppConfig'
+default_app_config = 'quickconfigs.apps.SmartSettingsAppConfig'

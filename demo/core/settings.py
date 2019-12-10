@@ -1,5 +1,5 @@
 import sys
-from quick_configs import CommonConfig, DevConfigMixin
+from quickconfigs import CommonConfig, DevConfigMixin
 
 
 class Dev(DevConfigMixin, CommonConfig):

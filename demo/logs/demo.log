@@ -16,9 +16,9 @@
 [17/Nov/2019 09:21:48] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
 [17/Nov/2019 09:22:32] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
 [17/Nov/2019 09:43:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
-[17/Nov/2019 09:43:26] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/__init__.py changed, reloading.
+[17/Nov/2019 09:43:26] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/__init__.py changed, reloading.
 [17/Nov/2019 09:43:27] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
-[17/Nov/2019 09:44:08] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/__init__.py changed, reloading.
+[17/Nov/2019 09:44:08] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/__init__.py changed, reloading.
 [17/Nov/2019 09:44:09] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
 [17/Nov/2019 09:44:32] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
 [17/Nov/2019 09:44:32] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
@@ -38,11 +38,11 @@
 [17/Nov/2019 09:49:31] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
 [17/Nov/2019 09:49:44] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
 [17/Nov/2019 09:49:44] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
-[17/Nov/2019 09:50:36] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 09:50:36] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/config/base.py changed, reloading.
 [17/Nov/2019 09:50:36] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
-[17/Nov/2019 09:50:39] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 09:50:39] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/config/base.py changed, reloading.
 [17/Nov/2019 09:50:39] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
-[17/Nov/2019 09:50:42] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 09:50:42] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/config/base.py changed, reloading.
 [17/Nov/2019 09:50:42] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
 [17/Nov/2019 09:51:17] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
 [17/Nov/2019 09:51:17] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
@@ -159,7 +159,7 @@ AttributeError: 'Value' object has no attribute 'lower'
 [17/Nov/2019 17:09:00] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin HTTP/1.1" 500 85136
 [17/Nov/2019 17:09:05] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/core/settings.py changed, reloading.
 [17/Nov/2019 17:09:05] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
-[17/Nov/2019 17:11:56] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/__init__.py changed, reloading.
+[17/Nov/2019 17:11:56] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/__init__.py changed, reloading.
 [17/Nov/2019 17:11:57] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
 [17/Nov/2019 17:12:02] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin HTTP/1.1" 301 0
 [17/Nov/2019 17:12:02] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/ HTTP/1.1" 302 0
@@ -181,7 +181,7 @@ Traceback (most recent call last):
     for entry in os.scandir(path):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/ceduth/Documents/Devl/Labs/django-quick-configs/demo/static'
 [17/Nov/2019 17:12:02] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 500 99223
-[17/Nov/2019 17:15:45] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/__init__.py changed, reloading.
+[17/Nov/2019 17:15:45] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/__init__.py changed, reloading.
 [17/Nov/2019 17:15:46] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
 [17/Nov/2019 17:15:48] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /admin/login/
 Traceback (most recent call last):
@@ -222,7 +222,7 @@ Traceback (most recent call last):
     raise NoReverseMatch("%s is not a registered namespace" % key)
 django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
 [17/Nov/2019 17:15:48] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 500 144799
-[17/Nov/2019 17:21:45] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 17:21:45] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/config/base.py changed, reloading.
 [17/Nov/2019 17:21:45] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
 [17/Nov/2019 17:22:07] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/log.py:228] Internal Server Error: /admin/login/
 Traceback (most recent call last):
@@ -276,7 +276,7 @@ Traceback (most recent call last):
     raise TemplateDoesNotExist(template_name, chain=chain)
 django.template.exceptions.TemplateDoesNotExist: debug_toolbar/base.html
 [17/Nov/2019 17:22:41] ERROR [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 500 88214
-[17/Nov/2019 17:23:11] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 17:23:11] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/config/base.py changed, reloading.
 [17/Nov/2019 17:23:11] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
 [17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1828
 [17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/css/responsive.css HTTP/1.1" 200 17944
@@ -285,9 +285,9 @@ django.template.exceptions.TemplateDoesNotExist: debug_toolbar/base.html
 [17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/css/fonts.css HTTP/1.1" 200 423
 [17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
 [17/Nov/2019 17:23:15] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
-[17/Nov/2019 17:23:25] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 17:23:25] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/config/base.py changed, reloading.
 [17/Nov/2019 17:23:26] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
-[17/Nov/2019 17:24:12] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quick_configs/config/base.py changed, reloading.
+[17/Nov/2019 17:24:12] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:217] /home/ceduth/Documents/Devl/Labs/django-quick-configs/quickconfigs/config/base.py changed, reloading.
 [17/Nov/2019 17:24:13] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:597] Watching for file changes with StatReloader
 [17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
 [17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /admin/ HTTP/1.1" 200 3711

@@ -1,4 +1,5 @@
-quick_configs.egg-info/
+demo/db.sqlite3
+quickconfigs.egg-info/
 dist/
 .idea/
 *.pyc

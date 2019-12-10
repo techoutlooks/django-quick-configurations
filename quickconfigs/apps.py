@@ -10,7 +10,7 @@ __version__ = '0.1.0dev'
 
 
 class SmartSettingsAppConfig(AppConfig):
-    name = 'quick_configs'
+    name = 'quickconfigs'
     verbose_name = _('Smart Settings')
 
 

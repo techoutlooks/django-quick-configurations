@@ -9,48 +9,27 @@ Depends on [django-configurations](https://github.com/jazzband/django-configurat
 ### Install
 
 ```bash
-pip install -e git+https://github.com/techoutlooks/django-quick-configs.git#egg=quick_configs
+pip install -e git+https://github.com/techoutlooks/django-quick-configs.git#egg=quickconfigs
 python manage.py --configurations Dev
 ```
 ### Usage
 
-Basic Django configuration (fits in the project's `settings.py`)
-Expects env vars in 'settings/env/*.env' of current project.
-```
-from quick_configs import CommonConfig
-class MyDjangoSettings(CommonConfig):
-    CODENAME = 'my'
-    HOSTNAME = 'localhost'
-    ROOT_URLCONF = 'my.urls'
-    WSGI_APPLICATION = 'my.wsgi'
-
-DJANGO_CONFIGURATION=MyDjangoSettings python manage.py runserver
-```
-
-slightly more complex usage leveraging the common mixins. The base `CommonConfig` class inherits the following mixins : 
-    SentrySettings, SecureSettings,  SendMailSettings, RedisCacheSettings, LoggingSettings, TemplatesSettings, 
-    MiddlewareSettings, DatabasesAppsSettings, Configuration
-
+Basic Django configuration leverages common mixins (fits in the project's `settings.py`).
+The base `CommonConfig` class inherits the following mixins: `SentrySettings, SecureSettings,  SendMailSettings, 
+RedisCacheSettings, LoggingSettings, TemplatesSettings, MiddlewareSettings, DatabasesAppsSettings, Configuration`.
 ```
 import sys
-from quick_configs import CommonConfig
-class Dev(CommonConfig):
+from quickconfigs import CommonConfig
+class Dev(DevConfigMixin, CommonConfig):
     """
-    Dev settings
+    Minimal development settings.
+    Alternatively, set below settings as env vars in '<path/to/settings.py>/env/*.env'.
     """
-    # Turn all debug flags on
-    DEV = True
-    PROD = STAGING = not DEV
-    HTTPS_ONLY = False
-
-    # Turn off debug while imported by Celery with a workaround
-    # See http://stackoverflow.com/a/4806384
-    if "celery" in sys.argv[0]:
-        DEBUG = False
-
-    # SendMailSettings mixin override
-    DJANGO_EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
+    CODENAME = 'demo'
+    HOSTNAME = 'localhost'
+    ROOT_URLCONF = 'core.urls'
+    WSGI_APPLICATION = 'core.wsgi.application'
+    SECRET_KEY = '<secret-key-here>'
 
 ```
 

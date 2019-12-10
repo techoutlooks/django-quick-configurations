@@ -4,6 +4,6 @@ django-configurations==2.1
 django-extensions==2.2.5
 python-dotenv==0.10.3
 pytz==2019.3
--e git+https://github.com/techoutlooks/django-quick-configs.git@9a161fdeb2d9e0ca739e58b8553c7cfe62516921#egg=quick_configs
+-e git+https://github.com/techoutlooks/django-quick-configs.git@9a161fdeb2d9e0ca739e58b8553c7cfe62516921#egg=quickconfigs
 six==1.13.0
 sqlparse==0.3.0
