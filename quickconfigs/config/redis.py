@@ -65,3 +65,19 @@ class RedisCacheSettings(RedisSettings):
         if not self.DEV:
             _CACHES[DEFAULT_CACHE_ALIAS] = prod
         return _CACHES
+
+
+class RedisChannelLayersSettings(RedisSettings):
+    """
+    django-channels.
+    """
+    @property
+    def CHANNEL_LAYERS(self):
+        return {
+            "default": {
+                "BACKEND": "channels_redis.core.RedisChannelLayer",
+                "CONFIG": {
+                    "hosts": [(self.REDIS_HOST, self.REDIS_PORT)],
+                },
+            },
+        }

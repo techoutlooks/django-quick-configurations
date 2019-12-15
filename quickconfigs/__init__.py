@@ -23,7 +23,7 @@ from .config.logging import LoggingSettings
 from .config.email import SendMailSettings
 from .config.secure import SecureSettings
 from .config.sentry import SentrySettings
-from .config.redis import RedisSettings, RedisCacheSettings, RedisBrokerSettings
+from .config.redis import RedisSettings, RedisCacheSettings, RedisBrokerSettings, RedisChannelLayersSettings
 from .config.drf import DjangorestframeworkSettings
 
 
