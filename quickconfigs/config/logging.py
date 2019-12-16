@@ -16,6 +16,12 @@ class LoggingSettings(object):
     https://docs.djangoproject.com/en/1.11/topics/logging/#disabling-logging-configuration
     http://www.caktusgroup.com/blog/2015/01/27/Django-Logging-Configuration-logging_config-default-settings-logger
     https://lincolnloop.com/blog/django-logging-right-way/
+
+    Note on settings.ADMINS:
+    ========================
+    Errors	: only for Staging, Prod confs.; with
+    Regular	: thru send_mail() in Staging, Prod confs. fakes to console with Dev conf.
+    (cf. `mail_admins` logging handlers)
     """
 
     @property

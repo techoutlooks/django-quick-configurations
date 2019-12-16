@@ -157,9 +157,6 @@ class CommonConfig(
     ADMINS = values.SingleNestedTupleValue(('Support Group @TechOutlooks', 'support@techoutlooks.com'),)
     MANAGERS = ADMINS
     ALLOWED_HOSTS = values.ListValue([h for h in [HOSTNAME.value, 'localhost', '127.0.0.1'] if h])
-    # @property
-    # def ALLOWED_HOSTS(self):
-    #     return [h for h in [self.HOSTNAME, 'localhost', '127.0.0.1'] if h]
 
     # ----------------------------------------------------------------------------------
     # URLs configuration

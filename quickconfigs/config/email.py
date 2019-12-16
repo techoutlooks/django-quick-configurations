@@ -17,6 +17,8 @@ class SendMailSettings(object):
         EMAIL_HOST,
         EMAIL_HOST_USER,
         EMAIL_HOST_PASSWORD
+
+
     """
 
     EMAIL_USE_TLS = values.BooleanValue(True)
@@ -31,4 +33,3 @@ class SendMailSettings(object):
 
     def EMAIL_SUBJECT_PREFIX(self):
         return values.Value('[%s][%s] ' % (self.CODENAME, self.HOSTNAME))
-
