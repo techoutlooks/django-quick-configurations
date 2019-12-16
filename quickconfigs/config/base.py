@@ -107,12 +107,12 @@ class TemplatesSettings(object):
                 'BACKEND': 'django.template.backends.django.DjangoTemplates',
                 'APP_DIRS': True,
                 'DIRS':
-                    # insert your TEMPLATE_DIRS here
+                    # Insert your templates root directory here
                     # filesystem.Loader: is enabled by default. However it won’t find any templates until
                     # you set DIRS to a non-empty list.
                     # app_directories.Loader: You can enable this loader simply by setting APP_DIRS to True.
                     # If debug is False, these loaders are wrapped in django.template.loaders.cached.Loader.
-                    self.TEMPLATE_DIRS,
+                    self.TEMPLATES_ROOT,
 
                 'OPTIONS': {
                     'debug': self.DEBUG,

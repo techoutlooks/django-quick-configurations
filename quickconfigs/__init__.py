@@ -146,8 +146,8 @@ class CommonConfig(
     FIXTURE_DIRS = (join(str(PROJECT_ROOT), 'fixtures'),)
     MEDIA_ROOT = join(str(PROJECT_ROOT), 'media')
     STATIC_ROOT = values.Value(join(realpath(str(PROJECT_ROOT)), 'sitestatic'))
-    # STATICFILES_DIRS = values.ListValue([join(str(PROJECT_ROOT), 'static')])
-    TEMPLATE_DIRS = values.ListValue([join(str(PROJECT_ROOT), 'templates')])
+    STATICFILES_DIRS = values.ListValue([join(str(PROJECT_ROOT), 'static')])
+    TEMPLATES_ROOT = values.ListValue([join(str(PROJECT_ROOT), 'templates')], environ_prefix=None)
 
     # -----------------------------------------------------------------------------------
     # Django Application definition
