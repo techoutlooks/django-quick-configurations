@@ -5,6 +5,9 @@ import os
 import sys
 import socket
 
+from django.core.exceptions import ImproperlyConfigured
+
+
 try:
     # Python 2
     from future_builtins import filter
@@ -27,7 +30,18 @@ from .config.redis import RedisSettings, RedisCacheSettings, RedisBrokerSettings
 from .config.drf import DjangorestframeworkSettings
 
 
-get_app_path = lambda name: next(filter(lambda p: isfile(join(p, name)), sys.path), None)
+def get_app_path(name):
+    """
+    Implements the default strategy for finding a module's path automagically.
+    => Picks up the first path in $PATH which contains the module with given name.
+    """
+    path = next(filter(lambda p: isfile(join(p, name)), sys.path), None)
+    if not path:
+        raise ImproperlyConfigured(
+            "`django-quickconfigs` couldn't find your settings module using the default strategy. "
+            "Please, explicitly set `PROJECT_ROOT` in your Django settings."
+        )
+    return realpath(path)
 
 
 class DevConfigMixin(object):
@@ -118,7 +132,8 @@ class CommonConfig(
     # look for `env/.env` of main Django app for common/default settings to load,
     # then attempt to load host-specific settings from env file named after the host
     load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'))
-    load_dotenv(dotenv_path=join(str(SETTINGS_ROOT), 'env/%s.env' % socket.gethostname().split('.', 1)[0]), override=True)
+    load_dotenv(dotenv_path=join(str(SETTINGS_ROOT), 'env/%s.env' % socket.gethostname().split('.', 1)[0]),
+                override=True)
 
     # Project definition
     CODENAME = values.Value(DEFAULT_CODENAME, environ_required=True, environ_prefix=None)
@@ -132,7 +147,7 @@ class CommonConfig(
     # are used beyond the scope of this Django project
     PROJECT_ROOT = values.PathValue(DEFAULT_PROJECT_ROOT, check_exists=True, environ_prefix=None)
     PROJECT_LOGS_ROOT = values.PathValue(join(str(PROJECT_ROOT), 'logs'), check_exists=True, environ_prefix=None)
-    PROJECT_LIBS_DIRS = values.ListValue([join(str(PROJECT_ROOT), 'lib')], environ_prefix=None)
+    PROJECT_LIBS_DIRS = values.ListValue([join(str(PROJECT_ROOT), 'libs')], environ_prefix=None)
     PROJECT_APPS_DIRS = values.ListValue([join(str(PROJECT_ROOT), 'apps')], environ_prefix=None)
     sys.path.extend(PROJECT_LIBS_DIRS.value)
 
@@ -154,7 +169,7 @@ class CommonConfig(
     DEBUG = values.BooleanValue(True, environ_prefix=None)
     DJANGO_LOG_LEVEL = values.Value('INFO', environ_prefix=None)
     INTERNAL_IPS = values.ListValue(['127.0.0.1'] + socket.gethostbyname_ex(socket.gethostname())[-1])
-    ADMINS = values.SingleNestedTupleValue(('Support Group @TechOutlooks', 'support@techoutlooks.com'),)
+    ADMINS = values.SingleNestedTupleValue(('Support Group @TechOutlooks', 'support@techoutlooks.com'), )
     MANAGERS = ADMINS
     ALLOWED_HOSTS = values.ListValue([h for h in [HOSTNAME.value, 'localhost', '127.0.0.1'] if h])
 
