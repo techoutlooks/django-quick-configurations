@@ -131,9 +131,10 @@ class CommonConfig(
 
     # look for `env/.env` of main Django app for common/default settings to load,
     # then attempt to load host-specific settings from env file named after the host
-    load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'))
-    load_dotenv(dotenv_path=join(str(SETTINGS_ROOT), 'env/%s.env' % socket.gethostname().split('.', 1)[0]),
-                override=True)
+    load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'), override=False)
+    host_envfile = join(str(SETTINGS_ROOT), 'env/%s.env' % socket.gethostname().split('.', 1)[0])
+    if isfile(host_envfile):
+        load_dotenv(dotenv_path=host_envfile, override=True)
 
     # Project definition
     CODENAME = values.Value(DEFAULT_CODENAME, environ_required=True, environ_prefix=None)

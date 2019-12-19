@@ -13,6 +13,10 @@ mk_redis_db_url = lambda db: 'redis://%s:%s/%s' % (RedisSettings.REDIS_HOST, Red
 
 
 class RedisSettings(object):
+    """
+    Base Redis settings using both common REDIS_* settings, or 12factor.
+    REDIS_URL builds from REDIS_* settings. When supplied, the REDIS_* settings superseed REDIS_URL.
+    """
 
     REDIS_HOST = values.Value('localhost',  environ_prefix=None, environ_required=False)
     REDIS_PORT = values.IntegerValue(_DEFAULT_REDIS_PORT, environ_prefix=None, environ_required=False)
@@ -77,7 +81,7 @@ class RedisChannelLayersSettings(RedisSettings):
             "default": {
                 "BACKEND": "channels_redis.core.RedisChannelLayer",
                 "CONFIG": {
-                    "hosts": [(self.REDIS_HOST, self.REDIS_PORT)],
+                    "hosts": [self.REDIS_URL],
                 },
             },
         }
