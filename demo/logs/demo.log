@@ -298,3 +298,5 @@ django.template.exceptions.TemplateDoesNotExist: debug_toolbar/base.html
 [17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/img/icon-addlink.svg HTTP/1.1" 200 331
 [17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/img/icon-changelink.svg HTTP/1.1" 200 380
 [17/Nov/2019 17:25:10] INFO [/home/ceduth/Documents/Devl/Projects/msg7.sm/django-quick-configs/venv/lib/python3.6/site-packages/django/core/servers/basehttp.py:154] "GET /sitestatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[20/Dec/2019 07:18:39] INFO [/home/ceduth/Documents/Devl/Labs/django-quickconfigs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:598] Watching for file changes with StatReloader
+[20/Dec/2019 17:28:04] INFO [/home/ceduth/Documents/Devl/Labs/django-quickconfigs/venv/lib/python3.6/site-packages/django/utils/autoreload.py:598] Watching for file changes with StatReloader

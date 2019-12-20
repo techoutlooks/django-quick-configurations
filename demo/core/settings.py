@@ -24,7 +24,6 @@ class Dev(DevConfigMixin, CommonConfig):
     HOSTNAME = 'localhost'
     ROOT_URLCONF = 'core.urls'
     WSGI_APPLICATION = 'core.wsgi.application'
-    SECRET_KEY = '(kfz2&2w9d+ktjp3m4!i(3v$ua4=-hcp6%%3b-d3)m#dm_rp6-'
 
     # Demo project's apps.
     # PROJECT_APPS = (

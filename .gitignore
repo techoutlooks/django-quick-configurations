@@ -1,6 +1,9 @@
 demo/db.sqlite3
+*demo.db
+venv/
 quickconfigs.egg-info/
 dist/
 .idea/
 *.pyc
 *~
+*/env
