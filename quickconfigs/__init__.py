@@ -139,7 +139,7 @@ class CommonConfig(
     # look for `env/.env` of main Django app for common/default settings to load,
     # then attempt to load host-specific settings from env file named after the host
     # load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'), override=False)
-    load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'), override=True)
+    load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'), override=False)
     _dotenv = join(str(SETTINGS_ROOT), 'env/%s.env' % socket.gethostname().split('.', 1)[0])
     if exists(_dotenv):
         # avoiding `DOTENV = _dotenv`, which is lazy;
