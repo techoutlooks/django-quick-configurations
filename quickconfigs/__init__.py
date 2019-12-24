@@ -134,11 +134,12 @@ class CommonConfig(
     DEFAULT_CODENAME = os.getenv('DJANGO_SETTINGS_MODULE').split('.')[0]
     DEFAULT_PROJECT_ROOT = get_app_path('%s/settings.py' % DEFAULT_CODENAME)
     SETTINGS_ROOT = join(str(DEFAULT_PROJECT_ROOT), DEFAULT_CODENAME)
-    DOTENV = join(SETTINGS_ROOT, 'env/.env')
+    # DOTENV = join(SETTINGS_ROOT, 'env/.env')
 
     # look for `env/.env` of main Django app for common/default settings to load,
     # then attempt to load host-specific settings from env file named after the host
     # load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'), override=False)
+    load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'), override=True)
     _dotenv = join(str(SETTINGS_ROOT), 'env/%s.env' % socket.gethostname().split('.', 1)[0])
     if exists(_dotenv):
         # avoiding `DOTENV = _dotenv`, which is lazy;
@@ -167,7 +168,7 @@ class CommonConfig(
     FIXTURE_DIRS = (join(str(PROJECT_ROOT), 'fixtures'),)
     MEDIA_ROOT = join(str(PROJECT_ROOT), 'media')
     STATIC_ROOT = values.Value(join(realpath(str(PROJECT_ROOT)), 'sitestatic'))
-    STATICFILES_DIRS = values.ListValue([join(str(PROJECT_ROOT), 'static')])
+    STATICFILES_DIRS = values.ListValue()
     TEMPLATES_ROOT = values.ListValue([join(str(PROJECT_ROOT), 'templates')], environ_prefix=None)
 
     # -----------------------------------------------------------------------------------
