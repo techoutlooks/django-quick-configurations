@@ -131,6 +131,7 @@ class CommonConfig(
     # -----------------------------------------------------------------------------------
 
     # The anchor part that enables to fetch the ENV
+    HOST = socket.gethostname().split('.')[0]
     DEFAULT_CODENAME = os.getenv('DJANGO_SETTINGS_MODULE').split('.')[0]
     DEFAULT_PROJECT_ROOT = get_app_path('%s/settings.py' % DEFAULT_CODENAME)
     SETTINGS_ROOT = join(str(DEFAULT_PROJECT_ROOT), DEFAULT_CODENAME)
@@ -140,7 +141,7 @@ class CommonConfig(
     # then attempt to load host-specific settings from env file named after the host
     # load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'), override=False)
     load_dotenv(dotenv_path=join(SETTINGS_ROOT, 'env/.env'), override=False)
-    _dotenv = join(str(SETTINGS_ROOT), 'env/%s.env' % socket.gethostname().split('.', 1)[0])
+    _dotenv = join(str(SETTINGS_ROOT), 'env/%s.env' % HOST)
     if exists(_dotenv):
         # avoiding `DOTENV = _dotenv`, which is lazy;
         # instead, using python-dotenv really sets up the env NOW
@@ -149,7 +150,7 @@ class CommonConfig(
 
     # Project definition
     CODENAME = values.Value(DEFAULT_CODENAME, environ_required=True, environ_prefix=None)
-    HOSTNAME = values.Value('localhost', environ_required=True, environ_prefix=None)
+    HOSTNAME = values.Value(HOST, environ_required=True, environ_prefix=None)
 
     # -----------------------------------------------------------------------------------
     # Directory Configuration
@@ -173,6 +174,7 @@ class CommonConfig(
 
     # -----------------------------------------------------------------------------------
     # Django Application definition
+    # Requires host name resolution set to /etc/hosts; eg. 127.0.0.1 localhost, l1-ceduth
     # -----------------------------------------------------------------------------------
     SITE_ID = 1
     SECRET_KEY = values.SecretValue()
@@ -180,7 +182,7 @@ class CommonConfig(
     WSGI_APPLICATION = values.Value(environ_required=True)
     DEBUG = values.BooleanValue(True, environ_prefix=None)
     DJANGO_LOG_LEVEL = values.Value('INFO', environ_prefix=None)
-    INTERNAL_IPS = values.ListValue(['127.0.0.1'] + socket.gethostbyname_ex(socket.gethostname())[-1])
+    INTERNAL_IPS = values.ListValue(['127.0.0.1'] + socket.gethostbyname_ex(HOST)[-1])
     ADMINS = values.SingleNestedTupleValue(('Support Group @TechOutlooks', 'support@techoutlooks.com'), )
     MANAGERS = ADMINS
     ALLOWED_HOSTS = values.ListValue([h for h in [HOSTNAME.value, 'localhost', '127.0.0.1'] if h])
@@ -219,3 +221,4 @@ class CommonConfig(
 
 
 default_app_config = 'quickconfigs.apps.SmartSettingsAppConfig'
+
