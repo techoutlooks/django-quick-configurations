@@ -1,6 +1,6 @@
 # Quick Django Settings
 
-[djang-quick-configurations](https://github.com/techoutlooks/django-quick-configurations)
+[djang-quickconfigs](https://github.com/techoutlooks/django-quickconfigs)
 
 Speed up Django projects configuration using class-based settings ready for production, staging and development.
 Provide mixins for major Django facilities, eg. redis, email, logging, easy_thumbnails, sentry, etc.
